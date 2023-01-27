@@ -1,0 +1,153 @@
+.about-page section {
+  padding-top: 200px;
+  box-sizing: border-box;
+}
+
+.about-intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-page h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.about-page p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.intro-txt {
+  width: 35%;
+}
+
+.intro-video {
+  width: 950px;
+  position: relative;
+}
+
+.pointBox {
+  background-color: blueviolet;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  z-index: -1;
+}
+
+.center-txt {
+  text-align: center;
+}
+
+.center-img {
+  position: relative;
+  box-sizing: border-box;
+}
+
+
+.center-img img {
+  margin-top: 30px;
+  display: block;
+  width: 100%;
+}
+
+.backBox {
+  width: 100%;
+  padding: 200px 0;
+  box-sizing: border-box;
+  background-color: #eee;
+  margin-top: -200px;
+  position: relative;
+  z-index: -2;
+}
+
+.backBox img {
+  position: absolute;
+  left: 50%;
+  bottom: 78px;
+  transform: translateX(-50%);
+}
+
+.pointBox-small {
+  width: 70px;
+  height: 70px;
+  background-color: blue;
+  position: absolute;
+  right: -70px;
+}
+
+.location-map {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location-img {
+  position: relative;
+}
+
+.location-img img {
+  border: 1px solid #eee;
+  box-sizing: border-box;
+
+}
+
+.location-txt {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.violet {
+  color: blueviolet;
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.gray {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.in {
+  text-indent: 20px;
+}
+
+.location-txt h1 {
+  margin-bottom: 10px;
+}
+
+.location-txt p {
+  margin-bottom: 8px;
+}
+
+.hour {
+  margin-top: 35px;
+}
+
+.pointBox-last {
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  z-index: -1;
+}
+
+.checkIcon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 5px;
+  background-image: url(../img/check.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  margin-right: 5px;
+}
